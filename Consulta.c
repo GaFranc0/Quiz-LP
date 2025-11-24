@@ -31,3 +31,4 @@ void salvar_recorde(Jogador recordista) {
 
     fclose(f);
 };
+

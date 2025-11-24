@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1764027756 source:c:\users\aluno\desktop\teste\consulta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"Consulta.h"
+
+1764027757 c:\users\aluno\desktop\teste\consulta.h
+
+1764027683 source:c:\users\aluno\desktop\teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"Quiz.h"
+	"Consulta.h"
+	<windows.h>
+
+1764027727 c:\users\aluno\desktop\teste\quiz.h
+
+1764027741 source:c:\users\aluno\desktop\teste\quiz.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"Quiz.h"
+
