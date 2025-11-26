@@ -7,8 +7,12 @@
 
 int main()
 {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+        setlocale(LC_ALL, "portuguese_brazil.1252");
+
     Pergunta teste[5];
-    carregar_perguntas(teste, "Perguntas.txt");
+    carregar_perguntas(teste, "Perguntas2.txt");
     int PontAtual = 0;
     int selecaoMenu = 0;
     int pontos;
@@ -26,7 +30,10 @@ int main()
             carregar_recorde(&recorde);
             iniciar_quiz(teste, 5, &pontos);
             system("cls");
-            printf("\n\n    Sua pontuação foi %d\n\n", pontos);
+            if (pontos == recorde.pontuacao)
+            {
+                printf("\n\n       Meus parabéns!!! Você empatou com o recorde atual de %d\n\n\n", recorde.pontuacao);
+            }
             if (pontos > recorde.pontuacao){
                  printf("\nNOVO RECORDE!\nDigite seu nome: ");
                  scanf("%s", recorde.nome);
@@ -34,7 +41,7 @@ int main()
                  recorde.pontuacao = pontos;
                  salvar_recorde(recorde);
             }
-            else
+            if (pontos < recorde.pontuacao)
             {
                 FILE *f = fopen("recorde.txt", "r");
                 printf("\n\n Infelizmente não foi o suficiente para para bater o recorde de %d\n\n", recorde.pontuacao);

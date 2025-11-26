@@ -11,3 +11,4 @@ void carregar_recorde(Jogador *recordista);
 void salvar_recorde(Jogador recordista);
 
 #endif // CONSULTA_H
+

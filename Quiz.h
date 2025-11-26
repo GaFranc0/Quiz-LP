@@ -17,3 +17,4 @@ void iniciar_quiz(Pergunta quiz[], int total_perguntas, int *pontAtual);
 #endif
 
 
+

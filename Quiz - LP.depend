@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1764187046 source:c:\users\gafra\documents\gabriel\escola\cotil\lp\projeto final\quiz - lp\quiz - lp\consulta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Consulta.h"
+
+1764187062 c:\users\gafra\documents\gabriel\escola\cotil\lp\projeto final\quiz - lp\quiz - lp\consulta.h
+
+1764187972 source:c:\users\gafra\documents\gabriel\escola\cotil\lp\projeto final\quiz - lp\quiz - lp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"Quiz.h"
+	"Consulta.h"
+	<windows.h>
+
+1764187107 c:\users\gafra\documents\gabriel\escola\cotil\lp\projeto final\quiz - lp\quiz - lp\quiz.h
+
+1764187502 source:c:\users\gafra\documents\gabriel\escola\cotil\lp\projeto final\quiz - lp\quiz - lp\quiz.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+	"Quiz.h"
+
